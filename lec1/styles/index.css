@@ -1,0 +1,542 @@
+* {
+  box-sizing: border-box;
+}
+
+.headline {
+  margin: 0;
+
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  line-height: 33px;
+  color: #2d2829;
+}
+
+.headline_super {
+  font-size: 40px;
+  letter-spacing: 3px;
+  line-height: 35px;
+}
+
+.handwritted-text {
+  font-family: 'Marck Script', serif;
+  font-size: 11px;
+  line-height: 39px;
+  color: #32313d;
+}
+
+.text {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 9px;
+}
+
+.button {
+  display: block;
+  padding: 0;
+
+  border-radius: 13px;
+  background-color: #f50049;
+  border: none;
+}
+
+.social-link {
+  background: white;
+  border-radius: 50%;
+}
+
+.button .button__text {
+  vertical-align: middle;
+  margin: 0 auto;
+  
+  line-height: 14px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+
+  background-color: #fbebea;
+}
+
+.navbar .navbar__wrapper {
+  margin: 0;
+  padding: 0;
+  
+  list-style-type: none;
+}
+
+.navbar .navbar__link {
+  line-height: 16px;
+  color: #2d2829;
+  text-decoration: none;
+}
+
+.header .header__telephone {
+  line-height: 20px;
+  font-size: 8px;
+  font-weight: bold;
+}
+
+.preview {
+  background-image: url('../assets/image/cakeMain.png');
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 150% 0;
+
+  height: 470px;
+}
+
+.preview .preview__title {
+  margin: 0;
+}
+
+.preview .preview__select-cake-btn {
+  width: 113px;
+  height: 26px;
+}
+
+.preview .preview__advantages-wrapper {
+
+}
+
+.preview .preview__advantage {
+  line-height: 9px;
+}
+
+.our-cakes .our-cakes__item {
+  text-decoration: none;
+}
+
+.our-cakes .our-cakes__cake-type {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 12px;
+  line-height: 37px;
+  font-weight: normal;
+  color: #2d2829;
+}
+
+.our-cakes .our-cakes__cake-count {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 10px;
+  line-height: 37px;
+  color: rgba(45, 40, 41, 0.7);
+}
+
+.our-cakes .our-cakes__link {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 10px;
+  line-height: 37px;
+  color: #2d2829;
+}
+
+.individual-order {
+
+}
+
+.individual-order .individual-order__title {
+
+}
+
+.individual-order .individual-order__subtitle {
+  font-size: 18px;
+}
+
+.select-filling {
+  background: white;
+}
+
+.select-filling .select-filling__number {
+  line-height: 77px;
+  font-size: 30px;
+  letter-spacing: 0.3px;
+  color: #f50049;
+}
+
+.select-filling .select-filling__title {
+  line-height: 15px;
+  font-size: 14px;
+  letter-spacing: 0.15px;
+  color: #f50049;
+}
+
+.select-filling .select-filling__wrapper {
+  width: 394px;
+}
+
+.select-filling .select-filling__subtitle {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 28px;
+  color: #2f2f2f;
+}
+
+.select-filling .select-filling__desc {
+  font-size: 9px;
+  line-height: 12px;
+  color: #2f2f2f;
+}
+
+.select-filling .select-filling__price {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 30px;
+  color: #2f2f2f;
+}
+
+.select-filling .select-filling__select-button {
+  width: 90px;
+  height: 26px;
+}
+
+.select-filling .select-filling__count {
+  font-size: 9px;
+  line-height: 13px;
+  color: rgba(47, 47, 47, 0.7);
+}
+
+.select-size {
+  background-color: white;
+}
+
+.select-size .select-size__number {
+  line-height: 77px;
+  font-size: 30px;
+  letter-spacing: 0.3px;
+  color: #f50049;
+}
+
+.select-size .select-size__title {
+  line-height: 15px;
+  font-size: 14px;
+  letter-spacing: 0.15px;
+  color: #f50049;
+}
+
+.select-size .select-size__struct {
+  font-size: 9px;
+  line-height: 15px;
+  color: rgba(47, 47, 47, 0.8);  
+}
+
+.select-size .select-size__persons {
+  font-size: 9px;
+  line-height: 15px;
+  color: rgba(47, 47, 47, 0.8);
+}
+
+.select-appear {
+  background-color: white;
+}
+
+.select-appear .select-appear__number {
+  line-height: 77px;
+  font-size: 30px;
+  letter-spacing: 0.3px;
+  color: #f50049;
+}
+
+.select-appear .select-appear__title {
+  line-height: 15px;
+  font-size: 14px;
+  letter-spacing: 0.15px;
+  color: #f50049;
+}
+
+.select-appear .select-appear__wrapper {
+
+}
+
+.select-appear .select-appear__item {
+  background-color: white;
+}
+
+.select-appear .select-appear__name {
+  font-size: 10px;
+  color: #2f2f2f;
+  line-height: 15px;
+}
+
+.select-appear .select-appear__price {
+  font-family: 'Playfair Display';
+  font-weight: bold;
+  font-size: 11px;
+  color: #2f2f2f;
+}
+
+.select-appear .select-appear__count {
+  font-size: 9px;
+  line-height: 13px;
+  color: rgba(47, 47, 47, 0.7);
+}
+
+.your-choose {
+
+}
+
+.your-choose .your-choose__title {
+  font-size: 14px;
+}
+
+.your-choose .your-choose__form {
+
+}
+
+.your-choose .your-choose__input-title {
+  font-size: 14px;
+  line-height: 15px;
+  color: #f50049;
+}
+
+.your-choose .your-choose__input {
+  border: none;
+  border-bottom: 1px solid #c1b0af;
+  background-color: transparent;
+
+  font-family: 'PT Sans', sans-serif;
+  font-size: 9px;
+  line-height: 15px;
+  color: #2d2829;
+}
+
+.your-choose .your-choose__submit-button {
+  width: 113px;
+  height: 26px;
+}
+
+.overview {
+  background-image: 
+    url('../assets/image/decor1.png'),
+    url('../assets/image/decor2.png');
+  background-position: 
+    top left,
+    top right;
+  background-repeat: no-repeat;
+}
+
+.overview .overview__title {
+
+}
+
+.overview .overview__item {
+
+}
+
+.overview .overview__name {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  color: #2d2829;
+  font-size: 14px;
+  line-height: 12px;
+}
+
+.overview .overview__profession {
+  color: #2d2829;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.overview .overview__desc {
+  color: #2d2829;
+  line-height: 12px;
+}
+
+.overview .overview__more {
+  text-decoration: underline;
+  color: rgba(245, 0, 73, 0.7);
+  font-size: 8px;
+  line-height: 13px;
+
+  background: none;
+  border: none;
+}
+
+.overview .overview__count {
+  color: rgba(245, 0, 73, 0.7);
+  line-height: 13px;
+}
+
+.about-us {
+
+}
+
+.about-us .about-us__wrapper {
+
+}
+
+.about-us .about-us__title {
+  line-height: 17px;
+}
+
+.about-us .about-us__subtitle {
+  font-size: 18px;
+}
+
+.about-us .about-us__theme {
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 14px;
+  color: #2d2829;
+}
+
+.about-us .about-us__desc {
+  line-height: 12px;
+  color: #2d2829;
+}
+
+.about-us .about-us__social-link {
+  width: 18px;
+  height: 18px;
+}
+
+.about-us .about-us__photo {
+  border-radius: 50%;
+}
+
+.our-opinion {
+
+}
+
+.our-opinion .our-opinion__title {
+  color: #fffefe;
+  line-height: 102px;
+  font-size: 70px;
+}
+
+.our-opinion .our-opinion__desc {
+  font-size: 13px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 19px;
+  letter-spacing: 0.13px;
+}
+
+.our-opinion .our-opinion__painting {
+
+}
+
+.our-advantages {
+  background-image:
+    url('../assets/image/cakeMain3.png'),
+    url('../assets/image/cakeMain2.png');
+  background-size: 
+    281px 345px,
+    384px 401px;
+  background-position: 
+    top left,
+    bottom right;
+  background-repeat: no-repeat;
+
+}
+
+.our-advantages .our-advantages__title {
+
+}
+
+.our-advantages .our-advantages__subtitle {
+  font-size: 18px;
+  color: #323113;
+}
+
+.our-advantages .our-advantages__desc {
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.our-advantages .our-advantages__theme {
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: bold;
+}
+
+.how-order {
+  background-color: #cb4b50; 
+}
+
+.how-order .how-order__title {
+  color: white;
+}
+
+.how-order .how-order__step {
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: 0.11px;
+  font-weight: bold;
+  color: white;
+}
+
+.how-order .how-order__number {
+  font-size: 33px;
+  line-height: 85px;
+  letter-spacing: 0.32px;
+  font-weight: bold;
+  color: white;
+}
+
+.how-order .how-order__desc {
+  font-size: 10px;
+  line-height: 12px;
+  color: white;
+}
+
+.contacts {
+  background-image: url('../assets/image/strawberry.png');
+  background-size: 443px 318px;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+.contacts .contacts__title {
+
+}
+
+.contacts .contacts__subtitle {
+
+}
+
+.contacts .contacts__form {
+
+}
+
+.contacts .contacts__input-title {
+  display: none;
+}
+
+.contacts .contacts__input {
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+
+  font-family: 'PT Sans', sans-serif;
+  font-size: 9px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.2); 
+}
+
+.contacts .contacts__submit-button button {
+
+}
+
+.contacts .contacts__wrapper {
+
+}
+
+.contacts .contacts__desc {
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.contacts .contacts__social-link {
+  width: 32px;
+  height: 32px;
+}
+
+.contacts .contacts__submit-button {
+  width: 90px;
+  height: 26px;
+}
