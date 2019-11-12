@@ -1,0 +1,137 @@
+@import 'fonts.css';
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit
+}
+
+.title {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-weight: bold;
+  color: #2e2829;
+}
+
+.subtitle {
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  color: #2d2829;
+}
+
+.handwritted {
+  font-family: 'Marck Script', 'Times New Roman', serif;
+  color: #32313d;
+}
+
+.text {
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-size: 10px;
+}
+
+.subtext {
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-size: 10px;
+  color: rgba(45, 40, 41, 0.7);
+}
+
+.quote {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-weight: bold;
+  font-style: italic;
+  color: #2d2829;
+}
+
+.link {
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  color: #2d2829;
+  text-decoration: none;
+}
+
+.button {
+  border-radius: 12.8px;
+  border: none;
+  background-color: #f50049;
+  
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-size: 7px;
+  color: #fefefe;
+  line-height: 13px;
+}
+
+/*  */
+
+.body {
+  background-color: #fbebea;
+}
+
+/* <Section preview> */
+.preview {
+  background-image: url('../assets/images/decorCake1.png');
+  background-position-y: center;
+  background-position-x: right;
+  background-repeat: no-repeat;
+}
+/* </Section preview> */
+
+
+/* <Section appearance-individual-order> */
+.appearance-individual-order .appearance-individual-order__wrapper {
+  background-image: url('../assets/images/decorCakePart.png');
+  background-position: bottom left;
+  background-repeat: no-repeat;
+}
+/* </Section appearance-individual-order> */
+
+
+/* <Section overviews> */
+.overviews {
+  background-image: 
+    url('../assets/images/decorTape1.png'),
+    url('../assets/images/decorTape2.png');
+  background-position: 
+    top left,
+    top right;
+  background-repeat: no-repeat;
+}
+/* </Section overviews> */
+
+
+
+/* <Section our-cakes> */
+.our-cakes .our-cakes__item {
+  text-decoration: none;
+}
+/* </Section our-cakes> */
+
+
+
+/* <Section about-us> */
+.about-us {
+  background-image: url('../assets/images/pavelPhoto.png');
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+.about-us .about-us__quote {
+  background-image: url('../assets/images/pavelQuote.png');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+/* </Section about-us> */
+
+
+
+/* <Section our-advantages> */
+.our-advantages {
+  background-image:
+    url('../assets/images/decorPlate.png'),
+    url('../assets/images/decorCake2.png');
+  background-position:
+    top left,
+    bottom right;
+  background-repeat: no-repeat;
+}
+/* </Section our-advantages> */
