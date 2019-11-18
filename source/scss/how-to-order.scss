@@ -1,0 +1,54 @@
+.how-to-order {
+  padding-left: 831px;
+  padding-top: 128px;
+  padding-bottom: 185px;
+  
+  background-image: url('http://placehold.it/1371x703');
+}
+
+.how-to-order__title {
+  margin-bottom: 49px;
+
+  font-size: 40px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.how-to-order__step {
+  position: relative;
+
+  padding-left: 47px;
+
+  margin-bottom: 11px;
+
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.how-to-order__order {
+  position: absolute;
+
+  left: 0;
+  top: 0;
+
+  font-family: 'Playfair Display', serif;
+  font-size: 65px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.how-to-order__step__desc {
+  padding-left: 47px;
+
+  margin-bottom: 38px;
+
+  width: 433px;
+  font-size: 20px;
+  color: #ffffff;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

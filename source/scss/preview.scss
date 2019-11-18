@@ -1,0 +1,67 @@
+.preview {
+  background-image: url('../img/decorCake1.png');
+  background-position-y: center;
+  background-position-x: 200%;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  padding: 141px 0 310px 73px;
+}
+
+.preview__title {
+  width: 353px;
+  
+  font-size: 79px;
+  line-height: 70px;
+  letter-spacing: 4px;
+}
+
+.preview__subtitle {
+  margin-top: 32px;
+
+  font-size: 41px;
+}
+
+.preview__select-cake-btn {
+  margin-top: 54px;
+
+  width: 226px;
+  height: 51px;
+
+  border-radius: 26px;
+  text-transform: uppercase;
+}
+
+.preview__advantage-wrapper {
+   display: flex;
+
+   justify-content: space-between;
+
+   width: 459px;
+
+   margin-top: 128px;
+}
+
+.preview__advantage {
+  background-size: 55px 55px;
+  background-repeat: no-repeat;
+
+  &:first-child {
+    background-image: url('../img/decorCereals.svg');
+  }
+  
+  &:last-child {
+    background-image: url('../img/decorPresent.svg');
+  }
+}
+
+.preview__advantage {
+  width: 218px;
+  height: 55px;
+
+  padding-left: 67px;
+  padding-top: 17px;
+
+  font-size: 14px;
+  line-height: 18px;
+}

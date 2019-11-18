@@ -1,0 +1,127 @@
+.overviews {
+  padding: 115px 0 0 0;
+
+  background-image:
+    url('../img/decorTape1.png'),
+    url('../img/decorTape2.png');
+  background-size: 554px 148px;
+  background-position: 
+    top left,
+    top right;
+  background-repeat: no-repeat;
+
+  .overviews__title {
+    margin-bottom: 64px;
+
+    font-size: 40px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .overviews__slider-back-btn {
+    background-color: transparent;
+
+    margin-right: 84px;
+  }
+
+  .overviews__slider-next-btn {
+    background-color: transparent;
+    
+    margin-left: 10px;
+  }
+
+  .overviews__slider-wrapper {
+    display: flex;
+
+    align-items: center;
+
+    margin: auto;
+    
+    width: 872px;
+    height: 223px;
+  }
+
+  .overviews__slider {
+    display: flex;
+
+    width: 607px;
+
+    overflow: hidden;
+  }
+
+  .overviews__slider-comment {
+    display: flex;
+
+    width: 607px;
+    height: 100%;
+
+    margin-left: 120px;
+    margin-right: 120px;
+
+    &:first-child {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    &:last-child {
+      margin-right: 0;
+      margin-left: 0;
+    }
+  }
+
+  .overviews__slider-comment-image {
+    width: 209px;
+    height: 209px;
+
+    border-radius: 50%;
+  }
+
+  .overviews__slider-info-wrapper {
+    margin-left: 53px;
+
+    width: 344px;
+  }
+
+  .overviews__slider-comment-name {
+    margin-bottom: 8px;
+    
+    font-size: 27px;
+    line-height: 25px;
+    font-weight: bold;
+  }
+
+  .overviews__slider-comment-info {
+    margin-bottom: 26px;
+    
+    font-size: 20px;
+  }
+
+  .overviews__slider-comment-message {
+    font-size: 18px;
+  }
+
+  .overviews__slider-comment-btn-more {
+    margin-left: 10px;
+
+    background: none;
+    border: none;
+    text-decoration: underline;
+    font-style: italic;
+    opacity: 0.7;
+    font-size: 16px;
+    color: rgba(245, 0, 73, 0.7);
+  }
+  
+  .overviews__slider-select-page-btn {
+    display: none;
+  }
+
+  .overviews__slider-count {
+    align-self: flex-end;
+    margin-left: 56px;
+
+    opacity: 0.7;
+    font-size: 18px;
+    color: rgba(245, 0, 73, 0.7);
+  }
+}
