@@ -22,72 +22,6 @@
     border-radius: 50%;
   }
 
-  .about-us__title {
-    margin-bottom: 35px;
-
-    font-size: 40px;
-    line-height: 30px;
-  }
-
-  .about-us__subtitle {
-    line-height: 35px;
-    font-size: 35px;
-  }
-
-  .about-us__theme {
-    font-size: 20px;
-
-    margin-bottom: 12px;
-  }
-  
-  .about-us__desc {
-    width: 540px;
-
-    font-size: 18px;
-  }
-
-  .about-us__desc:nth-child(4) {
-    margin-bottom: 25px;
-  }
-
-  .about-us__social-links {
-    margin-top: 24px;
-  }
-
-  .about-us__social-links-item {
-    margin-left: 20px;
-
-    width: 36px;
-    height: 36px;
-  }
-
-  .about-us__social-links .about-us__social-links-item:nth-child(1) {
-    margin-left: 0;
-  }
-
-  .about-us__quote-mark {
-    display: block;
-    
-    margin: 228px auto 44px auto;
-
-    width: max-content;
-
-    line-height: 1px;
-    font-family: 'Playfair Display', serif;
-    font-size: 140px;
-    font-weight: bold;
-    color: #fffefe;
-  }
-
-  .about-us__quote {
-    margin: 0 auto;
-
-    width: 616px;
-
-    text-align: center;
-    font-size: 25px;
-  }
-
   &::after {
     content: '';
 
@@ -101,5 +35,73 @@
     background-image: url('../img/pavelQuote.png');
     background-size: 149px 73px;
     background-repeat: no-repeat;
+  }
+}
+
+.about-us__title {
+  margin-bottom: 35px;
+
+  font-size: 40px;
+  line-height: 30px;
+}
+
+.about-us__subtitle {
+  line-height: 35px;
+  font-size: 35px;
+}
+
+.about-us__theme {
+  font-size: 20px;
+
+  margin-bottom: 12px;
+}
+
+.about-us__desc {
+  width: 540px;
+
+  font-size: 18px;
+}
+
+.about-us__desc:nth-child(4) {
+  margin-bottom: 25px;
+}
+
+.about-us__social-links {
+  margin-top: 24px;
+
+  .about-us__social-links-item:nth-child(1) {
+    margin-left: 0;
+  }
+}
+
+.about-us__social-links-item {
+  margin-left: 20px;
+
+  width: 36px;
+  height: 36px;
+}
+
+.about-us__quote {
+  margin: 0 auto;
+
+  width: 616px;
+
+  text-align: center;
+  font-size: 25px;
+
+  &::before {
+    content: '’’';
+
+    display: block;
+  
+    margin: 228px 0 44px 0;
+    text-align: center;
+
+    line-height: 1px;
+    font-family: $serif-font;
+    font-size: 140px;
+    font-style: normal;
+    font-weight: bold;
+    color: #fffefe;
   }
 }

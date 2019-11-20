@@ -3,7 +3,9 @@
   padding-top: 128px;
   padding-bottom: 185px;
   
-  background-image: url('http://placehold.it/1371x703');
+  background-image: url('../img/decorPresentCakes.jpg');
+  background-repeat: no-repeat;
+  background-position-x: -70px;
 }
 
 .how-to-order__title {
@@ -33,7 +35,7 @@
   left: 0;
   top: 0;
 
-  font-family: 'Playfair Display', serif;
+  font-family: $serif-font;
   font-size: 65px;
   line-height: 30px;
   font-weight: bold;

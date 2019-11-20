@@ -30,11 +30,11 @@
   height: 652px;
 
   &:nth-child(even) {
-    margin-left: 43px;
+    margin-left: 42px;
   }
   
   &:nth-child(odd) {
-    margin-right: 43px;
+    margin-right: 42px;
   }
 }
 
@@ -44,17 +44,17 @@
   width: 695px;
   height: 652px;
 
-  margin-bottom: 44px;
+  margin-bottom: 42px;
 
   text-decoration: none;
-}
 
-.our-cakes__item-wrapper .our-cakes__item {
-  width: 100%;
-}
+  &--small {
+    width: 100%;
 
-.our-cakes__item-wrapper .our-cakes__item:last-child {
-  margin-bottom: 0;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .our-cakes__item-img {
@@ -100,7 +100,7 @@
   font-size: 20px;
 
   &--active {
-    color: #2d2829;
+    color: $main-font-color;
   }
 
   &::after {

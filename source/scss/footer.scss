@@ -1,17 +1,18 @@
 .footer {
+  display: flex;
+
+  flex-wrap: wrap;
+
   padding: 38px 73px 21px 73px;
+
+  background-color: #e8e8e8;
 }
 
 .footer__logo {
-  vertical-align: top;
   margin-right: 162px;
 }
 
 .footer__nav {
-  display: inline-block;
-
-  vertical-align: top;
-
   width: 731px;
 }
 
@@ -28,10 +29,6 @@
 }
 
 .footer__social-link-instagram, .footer__social-link-vk {
-  display: inline-block;
-
-  vertical-align: top;
-  
   background-color: transparent;
 
   width: 46px;
@@ -49,9 +46,9 @@
 }
 
 .footer__the-end {
-  display: block;
-  
-  margin-top: 42px;
+  width: 100%;
+
+  margin-top: 40px;
   padding-top: 20px;
 
   border-top: 1px solid rgba(0, 0, 0, 0.1);

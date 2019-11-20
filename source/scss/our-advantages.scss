@@ -1,5 +1,5 @@
 .our-advantages {
-  margin-top: 74px;
+  margin-top: 114px;
 
   padding-top: 29px;
   padding-left: 73px;
@@ -16,91 +16,86 @@
     -3% top,
     107% bottom;
   background-repeat: no-repeat;
+}
 
-  .our-advantages__title {
-    width: max-content;
-    height: 40px;
+.our-advantages__title {
+  margin-bottom: 31px;
+  margin-right: 34%;
 
-    margin-right: 411px;
-    margin-left: auto;
-    margin-bottom: 31px;
+  text-align: right;
+  font-size: 40px;
+  line-height: 35px;
+}
 
-    font-size: 40px;
-    line-height: 35px;
+.our-advantages__subtitle {
+  margin-bottom: 127px;
+  margin-right: 34%;
+
+  text-align: right;
+  font-size: 35px;
+  line-height: 38px;
+}
+
+.our-advantages__wrapper {
+  margin-left: 547px;
+
+  padding-left: 81px;
+
+  &:nth-child(3) {
+    margin-bottom: 42px;
+
+    background-image: url('../img/decorCereals.svg');
+    background-size: 61px 61px;
+    background-position: left center;
+    background-repeat: no-repeat;
   }
 
-  .our-advantages__subtitle {
-    width: max-content;
-
-    margin-right: 411px;
-    margin-left: auto;
-    margin-bottom: 127px;
-
-    font-size: 35px;
-    line-height: 38px;
+  &:nth-child(4) {
+    background-image: url('../img/decorCakeStroke.png');
+    background-size: 63px 38px;
+    background-position: left center;
+    background-repeat: no-repeat;
   }
 
-  .our-advantages__wrapper {
-    margin-left: 547px;
-
-    padding-left: 81px;
-
-    &:nth-child(3) {
-      margin-bottom: 42px;
-  
-      background-image: url('../img/decorCereals.svg');
-      background-size: 61px 61px;
-      background-position: left center;
-      background-repeat: no-repeat;
-    }
-  
-    &:nth-child(4) {
-      background-image: url('../img/decorCakeStroke.png');
-      background-size: 63px 38px;
-      background-position: left center;
-      background-repeat: no-repeat;
-    }
-
-    &:nth-child(5) {
-      padding-left: 0;
-      margin-left: 0;
-      margin-top: 415px;
-    }
+  &:nth-child(5) {
+    padding-left: 0;
+    margin-left: 0;
+    margin-top: 415px;
   }
 
-  .our-advantages__theme {
-    margin-bottom: 9px;
-
-    font-size: 20px;
-    line-height: 19px;
-    font-weight: bold;
-    color: #000000;
-  }
-
-  .our-advantages__desc {
-    width: 371px;
-
-    font-size: 20px;
-    line-height: 24px;
-    color: #000000;
-  }
-
-  .our-advantages__wrapper:nth-child(5) .our-advantages__theme {
+  &:nth-child(5) .our-advantages__theme {
     margin-bottom: 29px;
     
     font-size: 40px;
     line-height: 35px;
-    color: #2d2829;
+    color: $main-font-color
   }
-
-  .our-advantages__wrapper:nth-child(5) .our-advantages__subtheme {
+  
+  &:nth-child(5) .our-advantages__subtheme {
     margin-bottom: 18px;
     
     font-size: 35px;
     line-height: 27px;
   }
-
-  .our-advantages__wrapper:nth-child(5) .our-advantages__desc {
+  
+  &:nth-child(5) .our-advantages__desc {
     width: 435px;
-  }
+  }  
+}
+
+.our-advantages__theme {
+  margin-bottom: 9px;
+
+  font-size: 20px;
+  line-height: 19px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.our-advantages__desc {
+  width: 371px;
+
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
 }
