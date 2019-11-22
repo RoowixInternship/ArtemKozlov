@@ -19,8 +19,7 @@
 }
 
 .our-advantages__title {
-  margin-bottom: 31px;
-  margin-right: 34%;
+  margin: 0 34% 31px 0;
 
   text-align: right;
   font-size: 40px;
@@ -28,8 +27,7 @@
 }
 
 .our-advantages__subtitle {
-  margin-bottom: 127px;
-  margin-right: 34%;
+  margin: 0 34% 127px 0;
 
   text-align: right;
   font-size: 35px;
@@ -72,7 +70,7 @@
   }
   
   &:nth-child(5) .our-advantages__subtheme {
-    margin-bottom: 18px;
+    margin: 0 0 18px 0;
     
     font-size: 35px;
     line-height: 27px;
@@ -84,7 +82,7 @@
 }
 
 .our-advantages__theme {
-  margin-bottom: 9px;
+  margin: 0 0 9px 0;
 
   font-size: 20px;
   line-height: 19px;
@@ -94,6 +92,8 @@
 
 .our-advantages__desc {
   width: 371px;
+
+  margin: 0;
 
   font-size: 20px;
   line-height: 24px;

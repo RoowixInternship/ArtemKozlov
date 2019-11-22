@@ -9,7 +9,7 @@
 }
 
 .contacts__title {
-  margin-bottom: 42px;
+  margin: 0 0 42px 0;
 
   line-height: 30px;
   font-size: 35px;
@@ -17,7 +17,7 @@
 }
 
 .contacts__subtitle {
-  margin-bottom: 16px;
+  margin: 0 0 16px 0;
 
   line-height: 37px;
   font-size: 35px;
@@ -30,16 +30,15 @@
 }
 
 .contacts__form-fieldset {
+  padding: 0;
+  margin: 0;
+  
   border: none;
 }
 
 .contacts__form-title {
   font-size: 20px;
   line-height: 18px;
-}
-
-.contacts__form-label {
-  display: none;
 }
 
 .contacts__form-input {
@@ -57,6 +56,9 @@
 }
 
 .contacts__form-button {
+  padding-left: 45px;
+  padding-right: 49px;
+
   margin-top: 80px;
 
   font-size: 19px;
@@ -76,8 +78,9 @@
 .contacts__telephone-desc, .contacts__mail-desc, .contacts__social-links {
   font-size: 20px;
   color: #000000;
+  line-height: 25px;
 
-  margin-bottom: 20px;
+  margin: 0 0 32px 0;
 }
 
 .contacts__telephone, .contacts__mail {
@@ -90,10 +93,18 @@
 }
 
 .contacts__social-links-item {
+  display: inline-block;
+ 
   width: 63px;
   height: 63px;
 
-  &:first-child {
+  &:nth-child(2) {
     margin-right: 30px;
   }
+}
+
+.contacts__social-links-text {
+  display: block;
+
+  margin-bottom: 27px;
 }

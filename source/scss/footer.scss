@@ -8,16 +8,17 @@
   background-color: #e8e8e8;
 }
 
-.footer__logo {
-  margin-right: 162px;
-}
-
 .footer__nav {
   width: 731px;
+
+  margin: 0 auto;
 }
 
 .footer__nav-wrapper {
   display: flex;
+
+  margin: 0;
+  padding: 0;
 
   justify-content: space-between;
 
@@ -33,11 +34,11 @@
 
   width: 46px;
   height: 46px;
+
+  margin-top: -12px;
 }
 
 .footer__social-link-instagram {
-  margin-left: 146px;
-
   background-image: url('../img/instagram-3.svg');
 }
 
@@ -48,7 +49,7 @@
 .footer__the-end {
   width: 100%;
 
-  margin-top: 40px;
+  margin-top: 30px;
   padding-top: 20px;
 
   border-top: 1px solid rgba(0, 0, 0, 0.1);

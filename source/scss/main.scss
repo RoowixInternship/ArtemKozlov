@@ -61,7 +61,8 @@
 
 .vk-link {
   background-image: url('../img/vk.svg');
-  background-size: 55% 58%;
+  background-size: 70%;
+  background-position-y: 35%;
 }
 
 .twitter-link {
@@ -82,31 +83,21 @@
 }
 
 .body {
+  margin: 0;
+
   background-color: #fbebea;
 }
 
-.slider-cross {
-  width: 40px;
-  height: 40px;
-
-  border: none;
-  border-radius: 50%;
-
-  color: transparent;
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
   overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%); 
 
-  background-color: white;
-  background-image: url('../img/crossBack.svg');
-  background-position: center center;
-  background-size: 10px 16px;
-  background-repeat: no-repeat;
-
-  &:hover {
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
-  }
-
-  &--right {
-    transform: rotateY(180deg);
-  }
+  margin: -1px;
 }
-

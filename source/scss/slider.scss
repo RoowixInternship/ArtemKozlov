@@ -9,20 +9,10 @@
   display: none;
 }
 
-.slider__back-btn {
-  margin-right: 75px;
-
-  flex-shrink: 0;
-}
-
-.slider__next-btn {
-  margin-left: 75px;
-
-  flex-shrink: 0;
-}
-
 .slider__screen {
   display: flex;
+
+  margin: auto;
 
   flex-shrink: 1;
 
@@ -55,7 +45,7 @@
 }
 
 .slider__item-name {
-  margin-bottom: 11px;
+  margin: 0 0 11px 0;
 
   line-height: 16px;
   font-size: 20px;
@@ -65,14 +55,14 @@
 .slider__item-desc {
   width: 313px;
 
-  margin-bottom: 23px;
+  margin: 0 0 23px 0;
 
   font-size: 18px;
   color: #2f2f2f;
 }
 
 .slider__item-price {
-  margin-bottom: 50px;
+  margin: 0 0 50px 0;
 
   font-size: 22px;
   line-height: 22px;
@@ -93,4 +83,39 @@
 
   font-size: 18px;
   color: rgba(47, 47, 47, 0.7);
+}
+
+.slider__change-button {
+  flex-shrink: 0;
+
+  width: 40px;
+  height: 40px;
+
+  padding: 0;
+
+  border: none;
+  border-radius: 50%;
+
+  color: transparent;
+  overflow: hidden;
+
+  background-color: white;
+  background-image: url('../img/crossBack.svg');
+  background-position: center center;
+  background-size: 10px 16px;
+  background-repeat: no-repeat;
+
+  &:hover {
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+  }
+
+  &--right {
+    margin-left: 75px;
+
+    transform: rotateY(180deg);
+  }
+
+  &--left {
+    margin-right: 75px; 
+  }
 }

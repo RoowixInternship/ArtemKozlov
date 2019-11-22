@@ -4,15 +4,16 @@
   background-image:
     url('../img/decorTape1.png'),
     url('../img/decorTape2.png');
-  background-size: 554px 148px;
+  background-size: 45% 148px;
   background-position: 
-    top left,
-    top right;
+    -8% top,
+    108% top;
   background-repeat: no-repeat;
+  
 }
 
 .overviews__title {
-  margin-bottom: 64px;
+  margin: 0 0 64px 0;
 
   font-size: 40px;
   line-height: 30px;
@@ -80,6 +81,8 @@
 
 .overviews__slider-btn-more {
   margin-left: 10px;
+
+  padding: 0;
 
   font-size: 16px;
   font-style: italic;

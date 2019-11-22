@@ -39,13 +39,15 @@
 }
 
 .about-us__title {
-  margin-bottom: 35px;
+  margin: 0 0 35px 0;
 
   font-size: 40px;
   line-height: 30px;
 }
 
 .about-us__subtitle {
+  margin: 0;
+
   line-height: 35px;
   font-size: 35px;
 }
@@ -53,11 +55,13 @@
 .about-us__theme {
   font-size: 20px;
 
-  margin-bottom: 12px;
+  margin: 0 0 12px 0;
 }
 
 .about-us__desc {
   width: 540px;
+
+  margin: 0;
 
   font-size: 18px;
 }
@@ -90,18 +94,10 @@
   font-size: 25px;
 
   &::before {
-    content: '’’';
+    content: url('../img/decorQuotes.svg');
 
     display: block;
   
-    margin: 228px 0 44px 0;
-    text-align: center;
-
-    line-height: 1px;
-    font-family: $serif-font;
-    font-size: 140px;
-    font-style: normal;
-    font-weight: bold;
-    color: #fffefe;
+    margin: 190px 0 42px 0;
   }
 }

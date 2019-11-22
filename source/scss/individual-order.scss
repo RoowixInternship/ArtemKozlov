@@ -7,14 +7,14 @@
   line-height: 40px;
   text-align: center;
 
-  margin-bottom: 16px;
+  margin: 0 0 16px 0;
 }
 
 .individual-order__subtitle {
   font-size: 35px;
   text-align: center;
 
-  margin-bottom: 46px;
+  margin: 0 0 46px 0;
 }
 
 .individual-order__step {
@@ -24,6 +24,8 @@
   left: 83px;
 
   width: 133px;
+
+  margin: 0;
 
   font-size: 27px;
   color: $primary-color;
@@ -126,6 +128,8 @@
 .individual-order__size-btn {
   margin-bottom: 20px;
 
+  padding: 0;
+
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: center;
@@ -168,23 +172,28 @@
 }
 
 .individual-order__appearance-slider {
-  width: 895px;
+  width: 860px;
   height: 451px;
 
-  margin-left: 291px;
+  margin-left: 276px;
   margin-bottom: 64px;
 }
 
 .individual-order__form {
-  padding: 0 91px 0 73px;
+  padding: 0 0 0 69px;
 }
 
 .individual-order__form-fieldset {
+  margin: 0;
+  padding: 0;
+
   border: none;
 }
 
 .individual-order__form-title {
-  margin-bottom: 25px;
+  margin-bottom: 35px;
+
+  padding: 0;
   
   line-height: 26px;
   font-size: 27px;
@@ -193,11 +202,11 @@
 .individual-order__form-label {
   display: inline-block;
 
-  margin-right: 85px;
+  margin-right: 84px;
   
   font-size: 27px;
   color: #f50049;
-  line-height: 27px;
+  line-height: 16px;
 
   &:nth-child(2) {
     width: 249px;
@@ -205,12 +214,14 @@
 
   &:nth-child(3) {
     width: 137px;
+
+    margin-right: 85px;
   }
 
   &:nth-child(4) {
     width: 249px;
 
-    margin-right: 18px;
+    margin-right: 26px;
   }
 }
 
@@ -221,7 +232,7 @@
 
   margin-top: 21px;
 
-  padding-bottom: 10px;
+  padding: 0 0 10px 0;
 
   font-size: 18px;
   color: $main-font-color;
