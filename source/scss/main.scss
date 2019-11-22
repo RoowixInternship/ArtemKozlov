@@ -32,56 +32,6 @@
   color: $main-font-color;
 }
 
-.link {
-  font-family: $sans-serif-font;
-  color: $main-font-color;
-  text-decoration: none;
-}
-
-.instagram-link, .vk-link, .twitter-link {
-  display: inline-block;
-
-  color: transparent;
-  overflow: hidden;
-  border-radius: 50%;
-
-  background-color: white;
-  background-position: center center;
-  background-repeat: no-repeat;
-
-  &:hover {
-    box-shadow: 0px 2px 7px 1px rgba(255, 0, 67, 0.2);
-  }
-}
-
-.instagram-link {
-  background-image: url('../img/instagram.svg');
-  background-size: 50% 50%;
-}
-
-.vk-link {
-  background-image: url('../img/vk.svg');
-  background-size: 70%;
-  background-position-y: 35%;
-}
-
-.twitter-link {
-  background-image: url('../img/twitter@2x.png');
-  background-size: 51% 48%;
-}
-
-.button {
-  padding: 0 60px;
-
-  border: none;
-  background-color: $primary-color;
-  
-  font-family: $sans-serif-font;
-  font-size: 13px;
-  color: #fefefe;
-  line-height: 50px;
-}
-
 .body {
   margin: 0;
 
