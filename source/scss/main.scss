@@ -1,0 +1,53 @@
+.title {
+  font-family: $serif-font;
+  font-weight: bold;
+  color: #2e2829;
+}
+
+.subtitle {
+  font-family: $sans-serif-font;
+  color: $main-font-color;
+}
+
+.handwritted {
+  font-family: 'Marck Script', 'Times New Roman', serif;
+  color: #32313d;
+}
+
+.text {
+  font-family: $sans-serif-font;
+  font-size: 10px;
+}
+
+.subtext {
+  font-family: $sans-serif-font;
+  font-size: 10px;
+  color: rgba(45, 40, 41, 0.7);
+}
+
+.quote {
+  font-family: $serif-font;
+  font-weight: bold;
+  font-style: italic;
+  color: $main-font-color;
+}
+
+.body {
+  margin: 0;
+
+  background-color: #fbebea;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%); 
+
+  margin: -1px;
+}

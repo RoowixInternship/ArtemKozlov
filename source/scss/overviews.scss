@@ -1,0 +1,100 @@
+.overviews {
+  padding: 115px 0 0 0;
+
+  background-image:
+    url('../img/decorTape1.png'),
+    url('../img/decorTape2.png');
+  background-size: 45% 148px;
+  background-position: 
+    -8% top,
+    108% top;
+  background-repeat: no-repeat;
+  
+}
+
+.overviews__title {
+  margin: 0 0 64px 0;
+
+  font-size: 40px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.overviews__slider {
+  width: 842px;
+  
+  margin: 0 auto;
+}
+
+.overviews__slider-img {
+  border-radius: 50%;
+
+  height: 209px;
+  width: 209px;
+}
+
+.overviews__slider-wrapper {
+  justify-content: flex-start;
+}
+
+.overviews__slider-screen {
+  width: 607px;
+}
+
+.overviews__slider-name {
+  font-size: 27px;
+  font-weight: bold;
+  line-height: 25px;
+
+  margin-bottom: 8px;
+}
+
+.overviews__slider-info {
+  margin-bottom: 26px;
+
+  font-size: 20px;
+  line-height: 18px;
+}
+
+.overviews__slider-desc {
+  width: 344px;
+
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.overviews__slider-back-btn, .overviews__slider-next-btn {
+  background-color: transparent;
+
+  &:hover {
+    background-color: white;
+  }
+}
+
+.overviews__slider-back-btn {
+  margin-right: 84px;
+}
+
+.overviews__slider-next-btn {
+  margin-left: 84px;
+}
+
+.overviews__slider-btn-more {
+  margin-left: 10px;
+
+  padding: 0;
+
+  font-size: 16px;
+  font-style: italic;
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  color: $primary-color;
+}
+
+.overviews__slider-count {
+  right: 49px;
+
+  font-size: 18px;
+  color: $primary-color;  
+}

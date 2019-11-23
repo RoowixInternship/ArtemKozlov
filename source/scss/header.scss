@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+
+  width: 100%;
+
+  padding-top: 62px;
+  padding-left: 73px;
+  padding-right: 70px;
+}
+
+.header__logo {
+  width: 67px;
+  height: 18px;
+}
+
+.header__nav {
+  min-width: 738px;
+
+  margin-left: 47px;
+}
+
+.header__nav-wrapper {
+  display: flex;
+
+  height: 100%;
+
+  padding: 0;
+  margin: 0;
+
+  justify-content: space-between;
+  align-items: flex-end;
+
+  list-style-type: none;
+}
+
+.header__nav-link {
+  text-transform: uppercase;
+  font-size: 13px;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+.header__telephone {
+  align-self: flex-end;
+
+  margin-left: auto;
+
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.header__menu-btn {
+  display: none;
+}

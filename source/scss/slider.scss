@@ -1,0 +1,121 @@
+.slider {
+  position: relative;
+  display: flex;
+
+  align-items: center;
+}
+
+.slider__select-page-btn {
+  display: none;
+}
+
+.slider__screen {
+  display: flex;
+
+  margin: auto;
+
+  flex-shrink: 1;
+
+  overflow: hidden;
+}
+
+.slider__item {
+  display: flex;
+
+  margin-left: 120px;
+  margin-right: 120px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.slider__info-wrapper {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  margin-left: 41px;
+}
+
+.slider__item-name {
+  margin: 0 0 11px 0;
+
+  line-height: 16px;
+  font-size: 20px;
+  color: #2f2f2f;
+}
+
+.slider__item-desc {
+  width: 313px;
+
+  margin: 0 0 23px 0;
+
+  font-size: 18px;
+  color: #2f2f2f;
+}
+
+.slider__item-price {
+  margin: 0 0 50px 0;
+
+  font-size: 22px;
+  line-height: 22px;
+  color: #2f2f2f;
+}
+
+.slider__item-select-btn {
+  border-radius: 26px;
+  text-transform: uppercase;
+  box-shadow: 0px 5px 7px 1px rgba(255, 0, 67, 0.3);
+}
+
+.slider__count {
+  position: absolute;
+
+  bottom: 0;
+  right: 0;
+
+  font-size: 18px;
+  color: rgba(47, 47, 47, 0.7);
+}
+
+.slider__change-button {
+  flex-shrink: 0;
+
+  width: 40px;
+  height: 40px;
+
+  padding: 0;
+
+  border: none;
+  border-radius: 50%;
+
+  color: transparent;
+  overflow: hidden;
+
+  background-color: white;
+  background-image: url('../img/crossBack.svg');
+  background-position: center center;
+  background-size: 10px 16px;
+  background-repeat: no-repeat;
+
+  &:hover {
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+  }
+
+  &--right {
+    margin-left: 75px;
+
+    transform: rotateY(180deg);
+  }
+
+  &--left {
+    margin-right: 75px; 
+  }
+}

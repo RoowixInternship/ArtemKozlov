@@ -1,0 +1,249 @@
+.individual-order {
+  padding: 105px 73px 0 73px;
+}
+
+.individual-order__title {
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+
+  margin: 0 0 16px 0;
+}
+
+.individual-order__subtitle {
+  font-size: 35px;
+  text-align: center;
+
+  margin: 0 0 46px 0;
+}
+
+.individual-order__step {
+  position: absolute;
+
+  top: 74px;
+  left: 83px;
+
+  width: 133px;
+
+  margin: 0;
+
+  font-size: 27px;
+  color: $primary-color;
+  line-height: 30px;
+}
+
+.individual-order__order {
+  display: inline-block;
+
+  margin-top: -15px;
+  margin-bottom: 16px;
+  
+  font-size: 59px;
+  line-height: 49px;
+}
+
+/* Section filling */
+
+.individual-order__filling {
+  position: relative;
+
+  background-color: white;
+  border: 1px solid transparent;
+  box-shadow: 0px 3px 6px rgba(163, 6, 60, 0.1);
+}
+
+.individual-order__slider {
+  height: 390px;
+  width: 898px;
+
+  margin-left: 196px;
+  margin-top: 88px;
+  margin-bottom: 93px;
+}
+
+/* Section size */
+
+.individual-order__size {
+  position: relative;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 45px;
+
+  padding: 140px 0 148px 0;
+
+  background-color: white;
+  box-shadow: 0px 3px 6px rgba(163, 6, 60, 0.1);
+}
+
+.individual-order__size-btn-wrapper {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: flex-end;
+
+  margin-right: 36px;
+
+  height: 299px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:nth-child(2) .individual-order__size-btn {
+    width: 144px;
+    height: 144px;
+  
+    background-image: url('../img/cakeSize1kg.png');
+    background-size: 110px 110px;
+  }
+  
+  &:nth-child(3) .individual-order__size-btn {
+    width: 187px;
+    height: 187px;
+    
+    background-image: url('../img/cakeSize2kg.png');
+    background-size: 154px 154px;
+  }
+  
+  &:nth-child(4) .individual-order__size-btn {
+    width: 205px;
+    height: 205px;
+    
+    background-image: url('../img/cakeSize5kg.png');
+    background-size: 173px 173px;
+  }
+  
+  &:nth-child(5) .individual-order__size-btn {
+    width: 232px;
+    height: 232px;
+    
+    background-image: url('../img/cakeSize8kg.png');
+    background-size: 200px 200px;
+  }
+}
+
+.individual-order__size-btn {
+  margin-bottom: 20px;
+
+  padding: 0;
+
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  border-radius: 50%;
+
+  text-align: center;
+  color: #2f2f2f;
+  font-size: 16px;
+
+  &:hover {
+    box-shadow: 0px 3px 8px rgba(103, 12, 40, 0.14);
+  }
+}
+
+.individual-order__size-desc {
+  display: block;
+
+  padding-left: 16px;
+
+  color: rgba(47, 47, 47, 0.8);
+  font-size: 18px;
+}
+
+/* Section appearance */
+
+.individual-order__appearance {
+  position: relative;
+
+  margin-top: 35px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+
+  background-color: white;
+  background-image: url('../img/decorCakePart.png');
+  background-size: 252px 334px;
+  background-repeat: no-repeat;
+  background-position: 17px 199px;
+  box-shadow: 0px 3px 6px rgba(163, 6, 60, 0.1);
+}
+
+.individual-order__appearance-slider {
+  width: 860px;
+  height: 451px;
+
+  margin-left: 276px;
+  margin-bottom: 64px;
+}
+
+.individual-order__form {
+  padding: 0 0 0 69px;
+}
+
+.individual-order__form-fieldset {
+  margin: 0;
+  padding: 0;
+
+  border: none;
+}
+
+.individual-order__form-title {
+  margin-bottom: 35px;
+
+  padding: 0;
+  
+  line-height: 26px;
+  font-size: 27px;
+}
+
+.individual-order__form-label {
+  display: inline-block;
+
+  margin-right: 84px;
+  
+  font-size: 27px;
+  color: #f50049;
+  line-height: 16px;
+
+  &:nth-child(2) {
+    width: 249px;
+  }
+
+  &:nth-child(3) {
+    width: 137px;
+
+    margin-right: 85px;
+  }
+
+  &:nth-child(4) {
+    width: 249px;
+
+    margin-right: 26px;
+  }
+}
+
+.individual-order__form-input {
+  display: block;
+
+  width: 100%;
+
+  margin-top: 21px;
+
+  padding: 0 0 10px 0;
+
+  font-size: 18px;
+  color: $main-font-color;
+  border: none;
+
+  border-bottom: solid 1px #c1b0af;
+}
+
+.individual-order__form-submit-btn {
+  vertical-align: bottom;
+
+  border-radius: 26px;
+  text-transform: uppercase;
+}
