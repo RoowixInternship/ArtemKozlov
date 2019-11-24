@@ -20,6 +20,8 @@
 .slider-multi-items__item {
   position: relative;
 
+  flex-shrink: 0;
+
   border: none;
 
   width: 321px;
@@ -98,7 +100,7 @@
   overflow: hidden;
 
   background-color: white;
-  background-image: url('../img/crossBack.svg');
+  background-image: url('../img/cross-back.svg');
   background-position: center center;
   background-size: 10px 16px;
   background-repeat: no-repeat;

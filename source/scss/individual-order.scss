@@ -69,6 +69,7 @@
 
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 
   margin-top: 45px;
 
@@ -96,7 +97,7 @@
     width: 144px;
     height: 144px;
   
-    background-image: url('../img/cakeSize1kg.png');
+    background-image: url('../img/cake-size-1kg.png');
     background-size: 110px 110px;
   }
   
@@ -104,7 +105,7 @@
     width: 187px;
     height: 187px;
     
-    background-image: url('../img/cakeSize2kg.png');
+    background-image: url('../img/cake-size-2kg.png');
     background-size: 154px 154px;
   }
   
@@ -112,7 +113,7 @@
     width: 205px;
     height: 205px;
     
-    background-image: url('../img/cakeSize5kg.png');
+    background-image: url('../img/cake-size-5kg.png');
     background-size: 173px 173px;
   }
   
@@ -120,7 +121,7 @@
     width: 232px;
     height: 232px;
     
-    background-image: url('../img/cakeSize8kg.png');
+    background-image: url('../img/cake-size-8kg.png');
     background-size: 200px 200px;
   }
 }
@@ -164,7 +165,7 @@
   padding-bottom: 64px;
 
   background-color: white;
-  background-image: url('../img/decorCakePart.png');
+  background-image: url('../img/decor-cake-part.png');
   background-size: 252px 334px;
   background-repeat: no-repeat;
   background-position: 17px 199px;
@@ -183,7 +184,12 @@
   padding: 0 0 0 69px;
 }
 
-.individual-order__form-fieldset {
+.individual-order__form-wrapper {
+  display: flex;
+
+  flex-wrap: wrap;
+  align-items: flex-end;
+
   margin: 0;
   padding: 0;
 
@@ -191,8 +197,9 @@
 }
 
 .individual-order__form-title {
-  margin-bottom: 35px;
+  width: 100%;
 
+  margin: 0;
   padding: 0;
   
   line-height: 26px;
@@ -200,9 +207,8 @@
 }
 
 .individual-order__form-label {
-  display: inline-block;
-
   margin-right: 84px;
+  margin-top: 35px;
   
   font-size: 27px;
   color: #f50049;
@@ -242,8 +248,8 @@
 }
 
 .individual-order__form-submit-btn {
-  vertical-align: bottom;
-
+  order: 1;
+  
   border-radius: 26px;
   text-transform: uppercase;
 }

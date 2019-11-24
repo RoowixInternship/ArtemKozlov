@@ -1,31 +1,33 @@
 .preview {
-  background-image: url('../img/decorCake1.png');
-  background-position-y: center;
-  background-position-x: 200%;
-  background-size: contain;
+  background-image: url('../img/decor-cake1.png');
+  background-position-y: 18px;
+  background-position-x: 202%;
   background-repeat: no-repeat;
+  background-size: 1179px 941px;
 
-  padding: 141px 0 310px 73px;
+  padding: 149px 0 310px 73px;
 }
 
 .preview__title {
-  width: 353px;
+  width: 370px;
 
   margin: 0;
   
   font-size: 79px;
   line-height: 70px;
-  letter-spacing: 4px;
+  letter-spacing: 5.7px;
 }
 
 .preview__subtitle {
-  margin: 32px 0 0 0;
+  margin: 24px 0 0 0;
 
   font-size: 41px;
 }
 
 .preview__select-cake-btn {
-  margin-top: 54px;
+  margin-top: 53px;
+
+  padding: 0 76px 0 66px;
 
   border-radius: 26px;
   text-transform: uppercase;
@@ -35,20 +37,23 @@
    display: flex;
 
    justify-content: space-between;
+   flex-wrap: wrap;
 
-   width: 459px;
+   width: 439px;
 
-   margin-top: 128px;
+   margin-left: 2px;
+   margin-top: 108px;
 }
 
 .preview__advantage {
-  width: 218px;
+  width: 219px;
   height: 55px;
 
-  padding-left: 67px;
-  padding-top: 17px;
+  padding-left: 69px;
+  padding-top: 15px;
 
   margin: 0;
+  margin-top: 20px;
 
   font-size: 14px;
   line-height: 18px;
@@ -57,10 +62,10 @@
   background-repeat: no-repeat;
 
   &:first-child {
-    background-image: url('../img/decorCereals.svg');
+    background-image: url('../img/decor-cereals.svg');
   }
   
   &:last-child {
-    background-image: url('../img/decorPresent.svg');
+    background-image: url('../img/decor-present.svg');
   }
 }

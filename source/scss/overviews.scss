@@ -2,8 +2,8 @@
   padding: 115px 0 0 0;
 
   background-image:
-    url('../img/decorTape1.png'),
-    url('../img/decorTape2.png');
+    url('../img/decor-tape1.png'),
+    url('../img/decor-tape2.png');
   background-size: 45% 148px;
   background-position: 
     -8% top,
@@ -63,7 +63,8 @@
   line-height: 25px;
 }
 
-.overviews__slider-back-btn, .overviews__slider-next-btn {
+.overviews__slider-back-btn,
+.overviews__slider-next-btn {
   background-color: transparent;
 
   &:hover {

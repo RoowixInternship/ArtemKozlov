@@ -20,7 +20,9 @@
 }
 
 .slider__item {
-  display: flex;
+  display: block;
+
+  flex-shrink: 0;
 
   margin-left: 120px;
   margin-right: 120px;
@@ -35,13 +37,22 @@
 }
 
 .slider__info-wrapper {
-  display: flex;
+  display: inline-flex;
 
   flex-direction: column;
-  justify-content: center;
   align-items: flex-start;
+  justify-content: center;
+
+  float: left;
+  vertical-align: middle;
+
+  height: 100%;
 
   margin-left: 41px;
+}
+
+.slider__item-img {
+  float: left;
 }
 
 .slider__item-name {
@@ -100,7 +111,7 @@
   overflow: hidden;
 
   background-color: white;
-  background-image: url('../img/crossBack.svg');
+  background-image: url('../img/cross-back.svg');
   background-position: center center;
   background-size: 10px 16px;
   background-repeat: no-repeat;

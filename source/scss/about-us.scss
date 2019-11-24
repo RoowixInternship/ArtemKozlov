@@ -16,7 +16,7 @@
     width: 508px;
     height: 508px;
 
-    background-image: url('../img/pavelPhoto.jpg');
+    background-image: url('../img/pavel-photo.jpg');
     background-size: 508px 508px;
     background-repeat: no-repeat;
     border-radius: 50%;
@@ -32,7 +32,7 @@
 
     margin: 50px auto 0 auto;
 
-    background-image: url('../img/pavelQuote.png');
+    background-image: url('../img/pavel-quote.png');
     background-size: 149px 73px;
     background-repeat: no-repeat;
   }
@@ -64,10 +64,10 @@
   margin: 0;
 
   font-size: 18px;
-}
 
-.about-us__desc:nth-child(4) {
-  margin-bottom: 25px;
+  &:nth-child(4) {
+    margin-bottom: 25px;
+  }
 }
 
 .about-us__social-links {
@@ -94,10 +94,13 @@
   font-size: 25px;
 
   &::before {
-    content: url('../img/decorQuotes.svg');
+    content: url('../img/decor-quotes.svg');
 
     display: block;
+
+    width: 61px;
+    height: 40px;
   
-    margin: 190px 0 42px 0;
+    margin: 190px auto 42px auto;
   }
 }

@@ -7,8 +7,8 @@
   padding-bottom: 258px;
 
   background-image: 
-    url('../img/decorPlate.png'),
-    url('../img/decorCake2.png');
+    url('../img/decor-plate.png'),
+    url('../img/decor-cake2.png');
   background-size:
     561px 690px,
     810px 802px;
@@ -27,7 +27,7 @@
 }
 
 .our-advantages__subtitle {
-  margin: 0 34% 127px 0;
+  margin: 0 34% 107px 0;
 
   text-align: right;
   font-size: 35px;
@@ -35,29 +35,26 @@
 }
 
 .our-advantages__wrapper {
-  margin-left: 547px;
-
   padding-left: 81px;
 
-  &:nth-child(3) {
-    margin-bottom: 42px;
+  margin-top: 20px;
 
-    background-image: url('../img/decorCereals.svg');
+  &:nth-child(3) {
+    margin-left: 547px;
+    margin-bottom: 22px;
+
+    background-image: url('../img/decor-cereals.svg');
     background-size: 61px 61px;
     background-position: left center;
     background-repeat: no-repeat;
   }
 
   &:nth-child(4) {
-    background-image: url('../img/decorCakeStroke.png');
-    background-size: 63px 38px;
-    background-position: left center;
-    background-repeat: no-repeat;
+    margin-left: 547px;
   }
 
   &:nth-child(5) {
     padding-left: 0;
-    margin-left: 0;
     margin-top: 415px;
   }
 
