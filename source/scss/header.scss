@@ -3,20 +3,16 @@
 
   width: 100%;
 
-  padding-top: 62px;
-  padding-left: 73px;
-  padding-right: 70px;
-}
-
-.header__logo {
-  width: 67px;
-  height: 18px;
+  padding-top: 63px;
+  padding-left: 75px;
+  padding-right: 57px;
 }
 
 .header__nav {
-  min-width: 738px;
+  margin-left: 39px;
+  margin-top: -2px;
 
-  margin-left: 47px;
+  max-width: 739px;
 }
 
 .header__nav-wrapper {
@@ -24,13 +20,33 @@
 
   height: 100%;
 
-  padding: 0;
+  padding: 6px 0 0 0;
   margin: 0;
 
-  justify-content: space-between;
   align-items: flex-end;
+  flex-wrap: wrap;
 
   list-style-type: none;
+}
+
+.header__nav-item {
+  margin-right: 62px;
+
+  &:nth-child(even) {
+    margin-right: 54px;
+  }
+
+  &:nth-child(odd) {
+    margin-right: 48px;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:first-child {
+    margin-right: 62px;
+  }
 }
 
 .header__nav-link {

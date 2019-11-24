@@ -1,13 +1,14 @@
 .our-cakes {
-  padding: 0 73px;
+  padding: 0 61px 0 73px;
 
   width: 100%;
 }
 
 .our-cakes__title {
   font-size: 40px;
+  letter-spacing: 0.5px;
 
-  margin: 0 0 64px 0;
+  margin: -68px 0 61px 0;
 }
 
 .our-cakes__wrapper {
@@ -26,7 +27,7 @@
   flex-direction: column;
   justify-content: space-between;
 
-  min-width: calc(44% - 49px);
+  min-width: calc(43% - 41px);
   min-height: 652px;
 
   margin-bottom: 42px;
@@ -38,25 +39,53 @@
   &:nth-child(odd) {
     margin-right: 42px;
   }
+
+  &:nth-child(3) {
+    .our-cakes__item-name {
+      left: 46px;
+      top: 32px;
+    }
+
+    .our-cakes__item-count {
+      left: 48px;
+      top: 62px;
+    }
+  }
+
 }
 
 .our-cakes__item {
   position: relative;
 
-  min-width: 56%;     // =(
-  min-height: 652px;  // =(
-
+  min-width: calc(57% - 2px);
+  min-height: 652px;
+  
   margin-bottom: 42px;
 
   text-decoration: none;
+  box-shadow: 0px 5px 12.7px 0.3px rgba(163, 6, 60, 0.05);
 
-  &:hover .our-cakes__item-link {
-    color: $main-font-color;
+  &:hover {
+    box-shadow: 0px 5px 12.7px 0.3px rgba(163, 6, 60, 0.2);
+
+    .our-cakes__item-link {
+      color: $main-font-color;
+    }
   }
 
   &--small {
     min-width: 100%;
-    min-height: calc(50% - 21px);
+    min-height: calc(49% - 14px); // очевидно... пиксель пёрфект не моё, наверное...
+
+    .our-cakes__item-name {
+      left: 49px;
+      top: 29px;
+    }
+
+    .our-cakes__item-count {
+      left: 52px;
+      top: 58px;
+    }
 
     &:last-child {
       margin-bottom: 0;
@@ -79,8 +108,8 @@
 .our-cakes__item-name {
   position: absolute;
 
-  left: 46px;
-  top: 40px;
+  left: 47px;
+  top: 33px;
 
   margin: 0;
   
@@ -92,8 +121,8 @@
 .our-cakes__item-count {
   position: absolute;
 
-  left: 46px;
-  top: 70px;
+  left: 47px;
+  top: 63px;
 
   font-size: 20px;
 }
@@ -119,7 +148,7 @@
 
     margin-left: 27px;
 
-    background-image: url('../img/decorCross.svg');
+    background-image: url('../img/decor-arrow.svg');
     background-size: 17px 12px;
     background-repeat: no-repeat;
   }

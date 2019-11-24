@@ -1,5 +1,5 @@
 .contacts {
-  background-image: url('../img/decorStrawberry.png');
+  background-image: url('../img/decor-strawberry.png');
   background-position: bottom right;
   background-repeat: no-repeat;
 
@@ -75,7 +75,9 @@
   width: 319px;
 }
 
-.contacts__telephone-desc, .contacts__mail-desc, .contacts__social-links {
+.contacts__telephone-desc,
+.contacts__mail-desc,
+.contacts__social-links {
   font-size: 20px;
   color: #000000;
   line-height: 25px;
@@ -83,7 +85,8 @@
   margin: 0 0 32px 0;
 }
 
-.contacts__telephone, .contacts__mail {
+.contacts__telephone,
+.contacts__mail {
   text-decoration: none;
   color: black;
 }
